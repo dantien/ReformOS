@@ -1,0 +1,21 @@
+# Environment & secrets
+.env
+.env*.local
+*.pem
+credentials.json
+
+# Node & Build
+node_modules/
+.next/
+dist/
+out/
+
+# Database
+data/*.db
+*.sqlite
+*.db
+
+# Logs & OS
+*.log
+.DS_Store
+.vscode/
