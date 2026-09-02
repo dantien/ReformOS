@@ -34,7 +34,7 @@ export default function ReformOSDashboard() {
     if (!newTitle || !newDesc) return;
 
     setIsValidating(true);
-    let aiMeta = "🌿 Verifisert mot Bærebjelkene (Qwen 1.5B - 0.3s)";
+    let aiMeta = "🌿 Verifisert mot kjerneringene (Qwen 1.5B - 0.3s)";
     let savedTokens = 300;
 
     try {
@@ -55,7 +55,7 @@ export default function ReformOSDashboard() {
     const newP = {
       id: `prop_${Date.now()}`,
       title: newTitle,
-      description: `${newDesc} \n\n🤖 [AI Bærebjelke-Validering]: ${aiMeta}`,
+      description: `${newDesc} \n\n🤖 [AI kjernering-Validering]: ${aiMeta}`,
       votes: 1,
       category: "Samfunnsreform",
       status: "AKTIV_AVSTEMNING",
